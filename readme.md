@@ -24,22 +24,29 @@ Heart_Disease/
 ├── heart_columns.pkl        # Expected one-hot encoded feature column order
 ├── heart_scaler.pkl         # Fitted StandardScaler artifact
 └── knn_heart_model.pkl      # Pre-trained KNN Classifier model artifact
+```
+
+---
+
 ## 🩺 Patient Diagnostic Inputs
 
 The single-page form accepts patient parameters across three distinct sections:
 
 ### 👤 Patient Demographics
+
 * 🎂 **Age:** Age in years (18–100).
 * ⚧ **Sex:** Male (`M`) or Female (`F`).
 * 💔 **Chest Pain Type:** `ATA` (Atypical Angina), `NAP` (Non-Anginal Pain), `TA` (Typical Angina), `ASY` (Asymptomatic).
 
 ### 🩺 Clinical Measurements
+
 * 🩸 **Resting Blood Pressure:** Resting BP in mm Hg (80–200).
 * 🧪 **Cholesterol:** Serum cholesterol in mg/dL (100–600).
 * 🍬 **Fasting Blood Sugar:** Sugar > 120 mg/dL (`1` = True, `0` = False).
 * ⚡ **Max Heart Rate:** Maximum heart rate achieved (60–220 bpm).
 
 ### 📈 Cardiac Test Results
+
 * 📊 **Resting ECG:** `Normal`, `ST`, or `LVH` (Left Ventricular Hypertrophy).
 * 🏃 **Exercise-Induced Angina:** Yes (`Y`) or No (`N`).
 * 📉 **Oldpeak:** ST depression induced by exercise relative to rest (0.0–6.0).
