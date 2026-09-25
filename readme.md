@@ -7,10 +7,18 @@ A professional, single-page desktop GUI application built with **CustomTkinter**
 ## 📌 Key Features
 
 * ⚡ **Single-Page Modern UI:** High-contrast single-screen layout designed with a Black, White, Electric Cyan, and Crimson Red theme.
+* 🌐 **Live Web Deployment:** Access the interactive cloud version of the model directly via your web browser.
 * 🫀 **Real-Time ML Diagnostics:** Instant risk classification (**HIGH RISK** / **LOW RISK**) based on patient vitals.
 * 🎨 **Rich Icon Integration:** Visual icons across all demographics, clinical metrics, cardiac tests, and action elements.
 * 🔒 **Validation & Error Handling:** Input validation for physiological bounds (Blood Pressure, Cholesterol) and missing model file protection.
 * 📊 **Complete Pipeline:** Integrated feature scaling (`StandardScaler`), strict one-hot feature order alignment, and KNN prediction.
+
+---
+
+## 🚀 Live Demo
+
+Experience the model in real time without local setup:
+👉 **[Live Streamlit Web App](https://heart-disease-by-abxrehman.streamlit.app/)**
 
 ---
 
@@ -33,20 +41,17 @@ Heart_Disease/
 The single-page form accepts patient parameters across three distinct sections:
 
 ### 👤 Patient Demographics
-
 * 🎂 **Age:** Age in years (18–100).
 * ⚧ **Sex:** Male (`M`) or Female (`F`).
 * 💔 **Chest Pain Type:** `ATA` (Atypical Angina), `NAP` (Non-Anginal Pain), `TA` (Typical Angina), `ASY` (Asymptomatic).
 
 ### 🩺 Clinical Measurements
-
 * 🩸 **Resting Blood Pressure:** Resting BP in mm Hg (80–200).
 * 🧪 **Cholesterol:** Serum cholesterol in mg/dL (100–600).
 * 🍬 **Fasting Blood Sugar:** Sugar > 120 mg/dL (`1` = True, `0` = False).
 * ⚡ **Max Heart Rate:** Maximum heart rate achieved (60–220 bpm).
 
 ### 📈 Cardiac Test Results
-
 * 📊 **Resting ECG:** `Normal`, `ST`, or `LVH` (Left Ventricular Hypertrophy).
 * 🏃 **Exercise-Induced Angina:** Yes (`Y`) or No (`N`).
 * 📉 **Oldpeak:** ST depression induced by exercise relative to rest (0.0–6.0).
@@ -73,6 +78,7 @@ This tool is created solely for **educational and portfolio demonstration purpos
 
 **Built with ❤️ by ABXREHMAN**
 
+* 🌐 **Live Web App:** [Streamlit Deployment](https://heart-disease-by-abxrehman.streamlit.app/)
 * 💼 **LinkedIn:** [datawithabdulrehman](https://www.linkedin.com/in/datawithabdulrehman)
 * 📊 **Kaggle:** [datawithabxrehman](https://www.kaggle.com/datawithabxrehman)
 * 💻 **GitHub:** [datawithabdulrehman](https://github.com/datawithabdulrehman)
